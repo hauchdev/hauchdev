@@ -4,3 +4,11 @@
     width="100%"
   />
 </p>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&lines=Software+Developer;Building+scalable+software;Open+Source+%26+Backend+Development;Performance+is+a+feature.;Turning+ideas+into+production-ready+code."
+      alt="Typing introduction"
+    />
+  </a>
+</p>
