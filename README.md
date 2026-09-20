@@ -127,29 +127,12 @@ philosophy: "If it can be automated, it shouldn't be manual."
 
 <div align="center">
 
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api?username=hauchdev&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github"
-  alt="Hauchdev GitHub stats"
-/>
+![GitHub followers](https://img.shields.io/github/followers/hauchdev?style=for-the-badge&logo=github&label=Followers)
 
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=hauchdev&layout=compact&hide_border=true&theme=tokyonight"
-  alt="Hauchdev most used languages"
-/>
+![GitHub stars](https://img.shields.io/github/stars/hauchdev?style=for-the-badge&logo=github&label=Total%20Stars)
+
+![GitHub repositories](https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fhauchdev)
+
+![GitHub profile views](https://komarev.com/ghpvc/?username=hauchdev&style=for-the-badge&color=22d3ee&label=Profile%20Views)
 
 </div>
-
-<br />
-
-<div align="center">
-
-<img
-  width="95%"
-  src="https://github-readme-streak-stats.herokuapp.com/?user=hauchdev&theme=tokyonight&hide_border=true"
-  alt="Hauchdev GitHub streak"
-/>
-
-</div>
-
