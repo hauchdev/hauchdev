@@ -136,3 +136,19 @@ philosophy: "If it can be automated, it shouldn't be manual."
 ![GitHub profile views](https://komarev.com/ghpvc/?username=hauchdev&style=for-the-badge&color=22d3ee&label=Profile%20Views)
 
 </div>
+
+## `> connection`
+
+<div align="center">
+
+**Have an idea worth building, an interesting technical problem, or a project you'd like to collaborate on?**
+
+<a href="https://github.com/hauchdev">
+  <img src="https://img.shields.io/badge/GitHub-@hauchdev-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
+</a>
+
+<br /><br />
+
+<sub>Build with purpose. Automate what you can. Optimize with evidence.</sub>
+
+</div>
