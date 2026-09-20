@@ -152,3 +152,9 @@ philosophy: "If it can be automated, it shouldn't be manual."
 <sub>Build with purpose. Automate what you can. Optimize with evidence.</sub>
 
 </div>
+
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:5b21b6,100:09001f&height=120&section=footer"
+  alt="Footer"
+/>
