@@ -105,3 +105,20 @@ I like automating repetitive work, keeping projects maintainable, and using **Gi
 ![Open Source](https://img.shields.io/badge/Open_Source-0891b2?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 </div>
+
+## `> automation`
+
+I use **GitHub Actions** to keep my projects continuously updated instead of treating automation as an afterthought.
+
+```yaml
+automation:
+  - automated builds and releases
+  - dependency and version updates
+  - continuous integration
+  - artifact generation
+  - scheduled maintenance
+  - repository health checks
+  - daily automated tasks
+
+philosophy: "If it can be automated, it shouldn't be manual."
+```
