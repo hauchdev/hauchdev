@@ -19,3 +19,28 @@
     <a href="https://github.com/hauchdev?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Always-14b8a6?style=for-the-badge&amp;logo=opensourceinitiative&amp;logoColor=white" alt="Open source" /></a>
   </p>
 </div>
+
+## `> whoami`
+
+```yaml
+handle: Hauchdev
+role: Software Developer
+location: Spain 🇪🇸
+
+main_quest: Building software, tools and developer experiences
+
+specialties:
+  - Software & backend development
+  - Minecraft server & plugin development
+  - Open source projects
+  - Developer tooling and automation
+  - Performance & system optimization
+
+currently:
+  - Building new projects
+  - Exploring better architectures
+  - Contributing to open source
+
+philosophy: "Performance is a feature."
+current_status: "Probably refactoring something that already worked..."
+```
