@@ -2,7 +2,7 @@ name: Update Profile Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,35 +13,49 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout
+        uses: actions/checkout@v6
 
-      - name: Generate GitHub stats
+      - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true
+          options: 'username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=dark&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&icon_color=5B21B6&border_color=164AA3'
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages
+      - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8
+          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=dark&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&border_color=164AA3'
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate 3D contributions
-        uses: yoshi389111/github-profile-3d-contrib@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+      - name: Generate Featured Project
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: 'username=hauchdev&repo=hChat&show_owner=true&theme=dark&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&icon_color=5B21B6&border_color=164AA3'
+          path: profile/pin-hchat.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit generated metrics
+      - name: Generate Streak
+        uses: Pranesh-2005/github-readme-stats-fast-action@v1.3
+        with:
+          card: streak
+          options: 'username=${{ github.repository_owner }}&theme=dark&background=0D1117&border=164AA3&ring=22D3EE&fire=5B21B6&currStreakLabel=22D3EE'
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/
-          git add profile-3d-contrib/
-          git commit -m "chore: update profile metrics" || exit 0
+
+          git add profile/*.svg
+
+          git diff --cached --quiet && exit 0
+
+          git commit -m "chore: update profile metrics"
           git push
