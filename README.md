@@ -48,3 +48,35 @@ I build software with a focus on **performance**, **reliability**, and **maintai
 
 I like automating repetitive work, keeping projects maintainable, and using **GitHub Actions** to continuously build, test, release, and update the things I work on. If something can be automated, I'll probably end up automating it.
 
+## `> featured_projects`
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/hauchdev/hChat">💬 hChat</a></h3>
+      <p>A lightweight and configurable Minecraft chat plugin focused on clean communication, customization, and a simple developer experience.</p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/hauchdev/hChat?style=flat-square&color=22d3ee" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/hauchdev/hChat?style=flat-square&color=a78bfa" alt="Stars" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ Restartly</h3>
+      <p>An automated server restart and playtime management system designed to make Minecraft server administration simpler and more reliable.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Minecraft-Server-3c8527?style=flat-square" alt="Minecraft" />
+        <img src="https://img.shields.io/badge/Automation-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 Hauch.dev</h3>
+      <p>My personal developer platform and portfolio, built around modern web technologies, performance, and a configurable content architecture.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" alt="Astro" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      </p>
+    </td>
+  </tr>
+</table>
