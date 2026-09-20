@@ -123,17 +123,35 @@ automation:
 philosophy: "If it can be automated, it shouldn't be manual."
 ```
 
-## `> system_metrics`
+## `> runtime --metrics`
 
 <div align="center">
 
-![GitHub followers](https://img.shields.io/github/followers/hauchdev?style=for-the-badge&logo=github&label=Followers)
+<img
+  width="49%"
+  src="./profile/stats.svg"
+  alt="Hauchdev GitHub statistics"
+/>
 
-![GitHub stars](https://img.shields.io/github/stars/hauchdev?style=for-the-badge&logo=github&label=Total%20Stars)
+<img
+  width="49%"
+  src="./profile/top-langs.svg"
+  alt="Hauchdev most used languages"
+/>
 
-![GitHub repositories](https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fhauchdev)
+<br />
 
-![GitHub profile views](https://komarev.com/ghpvc/?username=hauchdev&style=for-the-badge&color=22d3ee&label=Profile%20Views)
+<img
+  width="49%"
+  src="./profile/activity.svg"
+  alt="Hauchdev contribution activity"
+/>
+
+<img
+  width="49%"
+  src="./profile/pinned.svg"
+  alt="Hauchdev featured repository"
+/>
 
 </div>
 
