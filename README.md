@@ -122,3 +122,16 @@ automation:
 
 philosophy: "If it can be automated, it shouldn't be manual."
 ```
+
+## `> system_metrics`
+
+<div align="center">
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hauchdev&theme=tokyonight" alt="Hauchdev GitHub stats" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hauchdev&theme=tokyonight" alt="Most used languages" />
+</div>
+
+<div align="center">
+  <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hauchdev&theme=tokyonight" alt="GitHub contribution summary" />
+</div>
+
+
