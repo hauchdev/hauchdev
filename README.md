@@ -80,3 +80,28 @@ I like automating repetitive work, keeping projects maintainable, and using **Gi
     </td>
   </tr>
 </table>
+
+## `> loadout`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=java,typescript,astro,html,css,gradle,git,github,githubactions,linux,sqlite&theme=dark&perline=11" alt="Technology stack" />
+
+<br /><br />
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+<br />
+
+![Fabric](https://img.shields.io/badge/Fabric-Database?style=for-the-badge&logo=fabric&logoColor=white)
+![Minecraft](https://img.shields.io/badge/Minecraft_Development-3c8527?style=for-the-badge&logo=minecraft&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open_Source-0891b2?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+
+</div>
