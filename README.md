@@ -126,12 +126,30 @@ philosophy: "If it can be automated, it shouldn't be manual."
 ## `> system_metrics`
 
 <div align="center">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hauchdev&theme=tokyonight" alt="Hauchdev GitHub stats" />
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hauchdev&theme=tokyonight" alt="Most used languages" />
+
+<img
+  height="170"
+  src="https://github-readme-stats.vercel.app/api?username=hauchdev&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github"
+  alt="Hauchdev GitHub stats"
+/>
+
+<img
+  height="170"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=hauchdev&layout=compact&hide_border=true&theme=tokyonight"
+  alt="Hauchdev most used languages"
+/>
+
 </div>
+
+<br />
 
 <div align="center">
-  <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hauchdev&theme=tokyonight" alt="GitHub contribution summary" />
-</div>
 
+<img
+  width="95%"
+  src="https://github-readme-streak-stats.herokuapp.com/?user=hauchdev&theme=tokyonight&hide_border=true"
+  alt="Hauchdev GitHub streak"
+/>
+
+</div>
 
