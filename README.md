@@ -44,3 +44,7 @@ currently:
 philosophy: "Performance is a feature."
 current_status: "Probably refactoring something that already worked..."
 ```
+I build software with a focus on **performance**, **reliability**, and **maintainability**. I enjoy turning ideas into real, production-ready projects—from Minecraft tooling and backend systems to developer-focused applications and open-source software.
+
+I like automating repetitive work, keeping projects maintainable, and using **GitHub Actions** to continuously build, test, release, and update the things I work on. If something can be automated, I'll probably end up automating it.
+
