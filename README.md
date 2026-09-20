@@ -123,34 +123,32 @@ automation:
 philosophy: "If it can be automated, it shouldn't be manual."
 ```
 
-## `> runtime --metrics`
+## `> system_metrics`
 
 <div align="center">
 
 <img
-  width="49%"
   src="./profile/stats.svg"
-  alt="Hauchdev GitHub statistics"
-/>
-
-<img
   width="49%"
+  alt="Hauchdev GitHub Statistics"
+/>
+<img
   src="./profile/top-langs.svg"
-  alt="Hauchdev most used languages"
+  width="49%"
+  alt="Hauchdev Top Languages"
 />
 
 <br />
 
 <img
+  src="./profile/streak.svg"
   width="49%"
-  src="./profile/activity.svg"
-  alt="Hauchdev contribution activity"
+  alt="Hauchdev Contribution Streak"
 />
-
 <img
+  src="./profile/pin-hchat.svg"
   width="49%"
-  src="./profile/pinned.svg"
-  alt="Hauchdev featured repository"
+  alt="Hauchdev Featured Project"
 />
 
 </div>
