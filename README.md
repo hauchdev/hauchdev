@@ -1,24 +1,33 @@
 <div align="center">
-  <p>
-    <img
-      src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4,6&height=200&section=header&text=Hauchdev&fontSize=70&fontAlignY=35&desc=Software%20Developer%20%7C%20Code.%20Build.%20Innovate.&descAlignY=55"
-      width="100%"
-    />
-  </p>
-  <p>
-    <a href="https://git.io/typing-svg">
-      <img
-        src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&lines=Software+Developer;Building+scalable+software;Open+Source+%26+Backend+Development;Performance+is+a+feature.;Turning+ideas+into+production-ready+code."
-        alt="Typing introduction"
-      />
-    </a>
-  </p>
-  <p>
-    <a href="https://github.com/hauchdev?tab=followers"><img src="https://img.shields.io/github/followers/hauchdev?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=7c3aed" alt="GitHub followers" /></a>
-    <img src="https://komarev.com/ghpvc/?username=hauchdev&amp;style=for-the-badge&amp;color=0891b2&amp;label=Profile+views" alt="Profile views" />
-    <a href="https://github.com/hauchdev?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Always-14b8a6?style=for-the-badge&amp;logo=opensourceinitiative&amp;logoColor=white" alt="Open source" /></a>
-  </p>
+
+<img
+src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:5b21b6,100:09001f&height=200&section=header&text=Hauchdev&fontSize=70&fontAlignY=35&desc=Software%20Developer%20%7C%20Code.%20Build.%20Innovate.&descAlignY=55"
+width="100%"
+alt="Hauchdev"
+/>
+
+<br />
+
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&lines=Software+Developer;Building+scalable+software;Open+Source+%26+Backend+Development;Performance+is+a+feature.;Turning+ideas+into+production-ready+code."
+    alt="Typing introduction"
+  />
+</a>
+
+<br /><br />
+
+<a href="https://github.com/hauchdev?tab=followers">
+  <img src="https://img.shields.io/github/followers/hauchdev?style=for-the-badge&logo=github&label=Followers&color=22d3ee" alt="GitHub followers" />
+</a>
+<img src="https://komarev.com/ghpvc/?username=hauchdev&style=for-the-badge&color=5b21b6&label=Profile+views" alt="Profile views" />
+<a href="https://github.com/hauchdev?tab=repositories">
+  <img src="https://img.shields.io/badge/Open%20Source-Always-14b8a6?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open source" />
+</a>
+
 </div>
+
+<br />
 
 ## `> whoami`
 
@@ -44,67 +53,99 @@ currently:
 philosophy: "Performance is a feature."
 current_status: "Probably refactoring something that already worked..."
 ```
+
 I build software with a focus on **performance**, **reliability**, and **maintainability**. I enjoy turning ideas into real, production-ready projects—from Minecraft tooling and backend systems to developer-focused applications and open-source software.
 
 I like automating repetitive work, keeping projects maintainable, and using **GitHub Actions** to continuously build, test, release, and update the things I work on. If something can be automated, I'll probably end up automating it.
+
+<br />
 
 ## `> featured_projects`
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/hauchdev/hChat">💬 hChat</a></h3>
-      <p>A lightweight and configurable Minecraft chat plugin focused on clean communication, customization, and a simple developer experience.</p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/hauchdev/hChat?style=flat-square&color=22d3ee" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/hauchdev/hChat?style=flat-square&color=a78bfa" alt="Stars" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚙️ Restartly</h3>
-      <p>An automated server restart and playtime management system designed to make Minecraft server administration simpler and more reliable.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Minecraft-Server-3c8527?style=flat-square" alt="Minecraft" />
-        <img src="https://img.shields.io/badge/Automation-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-      </p>
-    </td>
+
+<h3><a href="https://github.com/hauchdev/hChat">💬 hChat</a></h3>
+
+A lightweight and configurable Minecraft chat plugin focused on clean communication, customization, and a simple developer experience.
+
+<br />
+
+<img src="https://img.shields.io/github/languages/top/hauchdev/hChat?style=flat-square&color=22d3ee" alt="Top language" />
+<img src="https://img.shields.io/github/stars/hauchdev/hChat?style=flat-square&color=5b21b6" alt="Stars" />
+
+```
+</td>
+
+<td width="50%" valign="top">
+```
+
+<h3>⚙️ Restartly</h3>
+
+An automated server restart and playtime management system designed to make Minecraft server administration simpler and more reliable.
+
+<br />
+
+<img src="https://img.shields.io/badge/Minecraft-Server-3c8527?style=flat-square" alt="Minecraft" />
+<img src="https://img.shields.io/badge/Automation-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+
+```
+</td>
+```
+
   </tr>
+
   <tr>
     <td width="50%" valign="top">
-      <h3>🌐 Hauch.dev</h3>
-      <p>My personal developer platform and portfolio, built around modern web technologies, performance, and a configurable content architecture.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" alt="Astro" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      </p>
-    </td>
+
+<h3>🌐 Hauch.dev</h3>
+
+My personal developer platform and portfolio, built around modern web technologies, performance, and a configurable content architecture.
+
+<br />
+
+<img src="https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" alt="Astro" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+
+```
+</td>
+```
+
   </tr>
 </table>
+
+<br />
 
 ## `> loadout`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,typescript,astro,html,css,gradle,git,github,githubactions,linux,sqlite&theme=dark&perline=11" alt="Technology stack" />
+<img
+src="https://skillicons.dev/icons?i=java,typescript,astro,html,css,gradle,git,github,githubactions,linux,sqlite&theme=dark&perline=11"
+alt="Technology stack"
+/>
 
 <br /><br />
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
+<img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 
-<br />
+<br /><br />
 
-![Fabric](https://img.shields.io/badge/Fabric-Database?style=for-the-badge&logo=fabric&logoColor=white)
-![Minecraft](https://img.shields.io/badge/Minecraft_Development-3c8527?style=for-the-badge&logo=minecraft&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open_Source-0891b2?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+<img src="https://img.shields.io/badge/Fabric-Database?style=for-the-badge&logo=fabric&logoColor=white" alt="Fabric" />
+<img src="https://img.shields.io/badge/Minecraft_Development-3c8527?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft Development" />
+<img src="https://img.shields.io/badge/Open_Source-0891b2?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source" />
 
 </div>
+
+<br />
 
 ## `> automation`
 
@@ -123,41 +164,45 @@ automation:
 philosophy: "If it can be automated, it shouldn't be manual."
 ```
 
+<br />
+
 ## `> system_metrics`
 
 <div align="center">
 
 <img
-  src="./profile/stats.svg"
-  width="49%"
-  alt="Hauchdev GitHub Statistics"
-/>
-<img
-  src="./profile/top-langs.svg"
-  width="49%"
-  alt="Hauchdev Top Languages"
+src="./profile/stats.svg"
+width="49%"
+alt="Hauchdev GitHub Statistics"
+/> <img
+src="./profile/top-langs.svg"
+width="49%"
+alt="Hauchdev Top Languages"
 />
 
 <br />
 
 <img
-  src="./profile/streak.svg"
-  width="49%"
-  alt="Hauchdev Contribution Streak"
-/>
-<img
-  src="./profile/pin-hchat.svg"
-  width="49%"
-  alt="Hauchdev Featured Project"
+src="./profile/streak.svg"
+width="49%"
+alt="Hauchdev Contribution Streak"
+/> <img
+src="./profile/pin-hchat.svg"
+width="49%"
+alt="Hauchdev Featured Project"
 />
 
 </div>
+
+<br />
 
 ## `> connection`
 
 <div align="center">
 
 **Have an idea worth building, an interesting technical problem, or a project you'd like to collaborate on?**
+
+<br />
 
 <a href="https://github.com/hauchdev">
   <img src="https://img.shields.io/badge/GitHub-@hauchdev-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
@@ -169,8 +214,10 @@ philosophy: "If it can be automated, it shouldn't be manual."
 
 </div>
 
+<br />
+
 <img
-  width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:5b21b6,100:09001f&height=120&section=footer"
-  alt="Footer"
+width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:5b21b6,100:09001f&height=120&section=footer"
+alt="Footer"
 />
