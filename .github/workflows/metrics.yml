@@ -1,8 +1,10 @@
-name: Update Profile Metrics
+name: Update System Metrics
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    # Every 6 hours
+    - cron: "0 */6 * * *"
+
   workflow_dispatch:
 
 permissions:
@@ -10,52 +12,36 @@ permissions:
 
 jobs:
   metrics:
+    name: Generate profile metrics
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
-      - name: Generate GitHub Stats
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate GitHub metrics
+        uses: mjun0812/github-metrics@latest
         with:
-          card: stats
-          options: 'username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=dark&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&icon_color=5B21B6&border_color=164AA3'
-          path: profile/stats.svg
+          user: hauchdev
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Top Languages
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=dark&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&border_color=164AA3'
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          output_dir: ./profile
 
-      - name: Generate Featured Project
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: 'username=hauchdev&repo=hChat&show_owner=true&theme=dark&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&icon_color=5B21B6&border_color=164AA3'
-          path: profile/pin-hchat.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          output_action: none
 
-      - name: Generate Streak
-        uses: Pranesh-2005/github-readme-stats-fast-action@v1.3
-        with:
-          card: streak
-          options: 'username=${{ github.repository_owner }}&theme=dark&background=0D1117&border=164AA3&ring=22D3EE&fire=5B21B6&currStreakLabel=22D3EE'
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_header: false
+          plugin_languages: true
+          plugin_stars: true
+          plugin_activity: true
 
-      - name: Commit generated cards
+      - name: Rename generated cards
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mv profile/languages.svg profile/languages.svg 2>/dev/null || true
+          mv profile/stars.svg profile/overview.svg 2>/dev/null || true
+          mv profile/activity.svg profile/activity.svg 2>/dev/null || true
 
-          git add profile/*.svg
-
-          git diff --cached --quiet && exit 0
-
-          git commit -m "chore: update profile metrics"
-          git push
+      - name: Commit updated metrics
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: update system metrics"
+          file_pattern: "profile/*.svg"
