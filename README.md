@@ -254,7 +254,7 @@ philosophy: "If it can be automated, it shouldn't be manual."
 <div align="center">
 
 <img
-src="./profile/overview.svg"
+src="./profile/overview.dark.svg"
 width="100%"
 alt="Hauchdev GitHub Overview"
 />
@@ -262,15 +262,23 @@ alt="Hauchdev GitHub Overview"
 <br />
 
 <img
-src="./profile/activity.svg"
+src="./profile/momentum.dark.svg"
 width="100%"
-alt="Hauchdev GitHub Activity"
+alt="Hauchdev GitHub Momentum"
 />
 
 <br />
 
 <img
-src="./profile/languages.svg"
+src="./profile/repositories.dark.svg"
+width="100%"
+alt="Hauchdev GitHub Repositories"
+/>
+
+<br />
+
+<img
+src="./profile/languages.dark.svg"
 width="100%"
 alt="Hauchdev GitHub Languages"
 />
