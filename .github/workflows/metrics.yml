@@ -12,36 +12,35 @@ permissions:
 
 jobs:
   metrics:
-    name: Generate profile metrics
+    name: Generate profile cards
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub metrics
-        uses: mjun0812/github-metrics@latest
+      - name: Generate profile cards
+        uses: seijikohara/profile-cards-action@v1
         with:
-          user: hauchdev
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: hauchdev
 
-          output_dir: ./profile
+          cards: >-
+            overview,
+            momentum,
+            contributions,
+            composition,
+            rhythm,
+            repositories,
+            portfolio,
+            languages
 
-          output_action: none
+          output-dir: profile
+          themes: dark
+          language-limit: 8
 
-          plugin_header: false
-          plugin_languages: true
-          plugin_stars: true
-          plugin_activity: true
+          font: Roboto
+          mono-font: Roboto Mono
 
-      - name: Rename generated cards
-        run: |
-          mv profile/languages.svg profile/languages.svg 2>/dev/null || true
-          mv profile/stars.svg profile/overview.svg 2>/dev/null || true
-          mv profile/activity.svg profile/activity.svg 2>/dev/null || true
-
-      - name: Commit updated metrics
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "chore: update system metrics"
-          file_pattern: "profile/*.svg"
+          commit: true
+          commit-message: "chore(profile): update system metrics [skip ci]"
