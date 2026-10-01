@@ -62,58 +62,141 @@ I like automating repetitive work, keeping projects maintainable, and using **Gi
 
 ## `> featured_projects`
 
+<div align="center">
+
 <table>
-  <tr>
-    <td width="50%" valign="top">
+<tr>
 
-<h3><a href="https://github.com/hauchdev/hChat">💬 hChat</a></h3>
-
-A lightweight and configurable Minecraft chat plugin focused on clean communication, customization, and a simple developer experience.
+<td width="33%" align="center" valign="top">
 
 <br />
 
-<img src="https://img.shields.io/github/languages/top/hauchdev/hChat?style=flat-square&color=22d3ee" alt="Top language" />
-<img src="https://img.shields.io/github/stars/hauchdev/hChat?style=flat-square&color=5b21b6" alt="Stars" />
-
-```
-</td>
-
-<td width="50%" valign="top">
-```
-
-<h3>⚙️ Restartly</h3>
-
-An automated server restart and playtime management system designed to make Minecraft server administration simpler and more reliable.
+<a href="https://github.com/hauchdev/hChat">
+  <img
+    src="https://skillicons.dev/icons?i=discord&theme=dark"
+    width="80"
+    height="80"
+    alt="hChat"
+  />
+</a>
 
 <br />
 
-<img src="https://img.shields.io/badge/Minecraft-Server-3c8527?style=flat-square" alt="Minecraft" />
-<img src="https://img.shields.io/badge/Automation-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<h3>hChat</h3>
 
-```
-</td>
-```
-
-  </tr>
-
-  <tr>
-    <td width="50%" valign="top">
-
-<h3>🌐 Hauch.dev</h3>
-
-My personal developer platform and portfolio, built around modern web technologies, performance, and a configurable content architecture.
+<p>
+  A lightweight and configurable Minecraft chat plugin focused on clean communication, customization, and a simple developer experience.
+</p>
 
 <br />
 
-<img src="https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" alt="Astro" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img
+src="https://skillicons.dev/icons?i=java,gradle,github&theme=dark"
+height="42"
+alt="Java, Gradle and GitHub"
+/>
 
-```
+<br /><br />
+
+<a href="https://github.com/hauchdev/hChat">
+  <img
+    src="https://img.shields.io/badge/View%20Project-18181b?style=flat-square&logo=github&logoColor=white"
+    alt="View hChat"
+  />
+</a>
+
+<br /><br />
+
 </td>
-```
 
-  </tr>
+<td width="33%" align="center" valign="top">
+
+<br />
+
+<a href="https://github.com/hauchdev">
+  <img
+    src="https://skillicons.dev/icons?i=java&theme=dark"
+    width="80"
+    height="80"
+    alt="Restartly"
+  />
+</a>
+
+<br />
+
+<h3>Restartly</h3>
+
+<p>
+  An automated server restart and playtime management system designed to make Minecraft server administration simpler and more reliable.
+</p>
+
+<br />
+
+<img
+src="https://skillicons.dev/icons?i=java,gradle,githubactions&theme=dark"
+height="42"
+alt="Java, Gradle and GitHub Actions"
+/>
+
+<br /><br />
+
+<a href="https://github.com/hauchdev">
+  <img
+    src="https://img.shields.io/badge/View%20Project-18181b?style=flat-square&logo=github&logoColor=white"
+    alt="View Restartly"
+  />
+</a>
+
+<br /><br />
+
+</td>
+
+<td width="33%" align="center" valign="top">
+
+<br />
+
+<a href="https://hauch.dev">
+  <img
+    src="https://skillicons.dev/icons?i=astro&theme=dark"
+    width="80"
+    height="80"
+    alt="Hauch.dev"
+  />
+</a>
+
+<br />
+
+<h3>Hauch.dev</h3>
+
+<p>
+  My personal developer platform and portfolio, built around modern web technologies, performance, and a configurable content architecture.
+</p>
+
+<br />
+
+<img
+src="https://skillicons.dev/icons?i=astro,typescript,html,css&theme=dark"
+height="42"
+alt="Astro, TypeScript, HTML and CSS"
+/>
+
+<br /><br />
+
+<a href="https://hauch.dev">
+  <img
+    src="https://img.shields.io/badge/View%20Project-18181b?style=flat-square&logo=astro&logoColor=white"
+    alt="View Hauch.dev"
+  />
+</a>
+
+<br /><br />
+
+</td>
+
+</tr>
 </table>
+
+</div>
 
 <br />
 
