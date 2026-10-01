@@ -254,28 +254,33 @@ philosophy: "If it can be automated, it shouldn't be manual."
 <div align="center">
 
 <img
-src="./profile/stats.svg"
-width="49%"
-alt="Hauchdev GitHub Statistics"
-/> <img
-src="./profile/top-langs.svg"
-width="49%"
-alt="Hauchdev Top Languages"
+src="./profile/overview.svg"
+width="100%"
+alt="Hauchdev GitHub Overview"
 />
 
 <br />
 
 <img
-src="./profile/streak.svg"
-width="49%"
-alt="Hauchdev Contribution Streak"
-/> <img
-src="./profile/pin-hchat.svg"
-width="49%"
-alt="Hauchdev Featured Project"
+src="./profile/activity.svg"
+width="100%"
+alt="Hauchdev GitHub Activity"
 />
 
+<br />
+
+<img
+src="./profile/languages.svg"
+width="100%"
+alt="Hauchdev GitHub Languages"
+/>
+
+<br />
+
+<sub>Generated automatically from GitHub data.</sub>
+
 </div>
+
 
 <br />
 
