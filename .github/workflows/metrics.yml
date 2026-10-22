@@ -1,46 +1,45 @@
-name: Update System Metrics
+name: Metrics
 
 on:
-  schedule:
-    # Every 6 hours
-    - cron: "0 */6 * * *"
-
+  push:
+    branches: [main, master]
+    paths:
+      - "README.md"
+      - ".github/workflows/readme.yml"
+  pull_request:
+    paths:
+      - "README.md"
+      - ".github/workflows/readme.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: readme-quality-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  metrics:
-    name: Generate profile cards
+  markdown:
+    name: Markdown lint
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate profile cards
-        uses: seijikohara/profile-cards-action@v1
+      - name: Lint README
+        uses: DavidAnson/markdownlint-cli2-action@v19
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          username: hauchdev
-
-          cards: >-
-            overview,
-            momentum,
-            contributions,
-            composition,
-            rhythm,
-            repositories,
-            portfolio,
-            languages
-
-          output-dir: profile
-          themes: dark
-          language-limit: 8
-
-          font: Roboto
-          mono-font: Roboto Mono
-
-          commit: true
-          commit-message: "chore(profile): update system metrics [skip ci]"
+          globs: README.md
+          config: |
+            {
+              "config": {
+                "default": true,
+                "MD013": false,
+                "MD033": false,
+                "MD034": false,
+                "MD041": false,
+                "MD036": false,
+                "MD060": false
+              }
+            }
