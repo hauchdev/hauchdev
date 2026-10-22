@@ -31,13 +31,4 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v19
         with:
           globs: README.md
-          config: |
-            {
-              "default": true,
-              "MD013": false,
-              "MD033": false,
-              "MD034": false,
-              "MD041": false,
-              "MD036": false,
-              "MD060": false
-            }
+          config: .markdownlint.json
